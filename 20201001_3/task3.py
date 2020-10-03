@@ -1,0 +1,1 @@
+def Calc(s, t, u): return lambda a: (lambda x, y: eval(u))((lambda x: eval(s))(a), (lambda x: eval(t))(a))
