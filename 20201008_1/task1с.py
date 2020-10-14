@@ -9,9 +9,9 @@ def point_2_cell(y):
     return int((y - seg_y[0]) * mesh[1] / (seg_y[1] - seg_y[0]))
 
 def new_line(n):
-    s = ' ' * (n[0]-1) + '*'
+    s = '{: >{}}'.format('*', n[0])
     for i in range(1, len(n)):
-        s += ' ' * (n[i]-n[i-1]-1) + '*'
+        s += '{: >{}}'.format('*', n[i]-n[i-1])
     return '{: <{}}'.format(s, mesh[0])
 
 def mesh_ver(f):
