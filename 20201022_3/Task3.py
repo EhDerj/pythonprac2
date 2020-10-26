@@ -1,0 +1,2 @@
+from itertools import permutations, combinations_with_replacement
+print(*list((''.join(i) for i in sorted(set.union(*(set(permutations(a, len(a))) for a in combinations_with_replacement('ORT', int(input()))))) if ''.join(i).count('TOR') == 2)), sep=', ')
