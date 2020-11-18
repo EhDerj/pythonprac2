@@ -1,0 +1,2 @@
+print(-(-nestr('qwerty') + nestr('BigFloppa')*2 + nestr('qwerty')[0:3]))
+

@@ -1,0 +1,2 @@
+print(type(nestr('qwe') + -nestr('qwe')))
+
