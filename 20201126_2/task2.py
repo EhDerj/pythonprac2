@@ -1,0 +1,1 @@
+print(input().encode("latin", errors='replace').decode("CP1251"))
