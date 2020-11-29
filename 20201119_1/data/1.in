@@ -1,0 +1,7 @@
+@deccount
+def fun1():
+    print("Hello, world!")
+fun1()
+fun1()
+fun1()
+

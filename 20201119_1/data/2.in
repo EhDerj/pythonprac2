@@ -1,0 +1,11 @@
+@deccount
+def sup_fac(x):
+    sf = x
+    for c in range(2,x):
+        sf *= (x-c+1)**c
+    return sf
+x = sup_fac(3)
+y = sup_fac(x // 3)
+print(y, x)
+print(sup_fac(y // x - x // 2))
+

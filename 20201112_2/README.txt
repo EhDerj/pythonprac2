@@ -1,1 +1,1 @@
-use "checker.py ./t2_tester.py" for cheking
+use "checker.py ./tester.py" for cheking

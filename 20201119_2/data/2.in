@@ -1,0 +1,9 @@
+class any_num:
+    data = Num()
+a, b, c, d = any_num(), any_num(), any_num(), any_num()
+a.data = 12 + 2j
+b.data = {1,2,3}
+c.data = 33.3333333
+d.data = Num()
+print(a.data, b.data, c.data, d.data)
+

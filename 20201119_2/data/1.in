@@ -1,0 +1,7 @@
+class my_int:
+    data = Num()
+a, b = my_int(), my_int()
+a.data = 12
+b.data = [1,2,3]
+print(a.data, b.data)
+

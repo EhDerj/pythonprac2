@@ -6,10 +6,10 @@ class Num:
             return 0
 
     def __set__(self, obj, val):
-        if hasattr(val, "__len__"):
-            obj._value = len(val)
-        else:
+        if hasattr(val, "real"):
             obj._value = val
+        elif hasattr(val, "__len__"):
+            obj._value = len(val)
 
     def __delete__(self, obj):
         obj._value = None
