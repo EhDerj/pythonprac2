@@ -1,14 +1,8 @@
 import sys
 
-name, pnum = sys.argv[1], int(sys.argv[2])
-
-with open(name, "rb") as f:
-    data = f.read()
-
-sz = len(data) // pnum
-t = (data[i*sz:(i+1)*sz+1] for i in range())
-
-
-with open(name, "wb") as f:
-    for i in range(pnum):
-        f.write(data[])
+N = sys.stdin.buffer.read(1)
+sys.stdout.buffer.write(N)
+N = N[0]
+text = sys.stdin.buffer.read()
+L = len(text)
+sys.stdout.buffer.write(b"".join(sorted((text[i*L//N:(i+1)*L//N] for i in range(N)))))
