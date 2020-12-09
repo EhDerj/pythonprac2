@@ -1,0 +1,19 @@
+class mulst(metaclass=check):
+    s: str
+    i: int
+    def __init__(self, st="", n=1):
+        self.s = st
+        self.i = n
+    def upd(self, st="", n=1):
+        self.s = st
+        self.i = n
+        return st*n
+p = mulst("give me the pizza!", "NOW!")
+print(p.check_annotations())
+print(p.upd("please? "))
+print(p.check_annotations())
+print(p.upd("pretty please?\n", 4))
+print(p.check_annotations())
+print(p.upd((1,2,3), n=3))
+print(p.check_annotations())
+

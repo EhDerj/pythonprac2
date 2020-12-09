@@ -1,0 +1,11 @@
+class mulst(metaclass=dump):
+    def __init__(self, st="", n=1):
+        self.s = st
+        self.i = n
+    def upd(self, st="", n=0):
+        return (self.s + st) * (self.i + n)
+p = mulst("give me the pizza!")
+print(p.upd(" please? "))
+print(p.upd(" pretty please?\n", 4))
+print(p.upd(n=3))
+

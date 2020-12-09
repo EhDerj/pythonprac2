@@ -1,0 +1,11 @@
+class twoint(metaclass=dump):
+    def __init__(self, x=0, y=0):
+        self.a = x
+        self.b = y
+    def summ(self, i=1, j=1, k=0):
+        return i*self.a + j*self.b + k
+p = twoint(12, 21)
+q = twoint(767)
+print(p.summ(4))
+print(q.summ(0 ,1243, 88))
+

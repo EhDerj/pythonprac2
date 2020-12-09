@@ -1,0 +1,15 @@
+class twoint(metaclass=check):
+    a: int
+    b: int
+    def __init__(self, x=0, y=0):
+        self.a = x
+        self.b = y
+    def summ(self, i=1, j=1, k=0):
+        return self.a + self.b + k
+p = twoint(12, 21)
+q = twoint("76", "7")
+print(p.summ(4))
+print(p.check_annotations())
+print(q.summ(0 ,1243, "88"))
+print(q.check_annotations())
+

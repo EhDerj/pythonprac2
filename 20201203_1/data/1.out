@@ -1,0 +1,12 @@
+__init__: ('give me the pizza!',), {}
+upd: (' please? ',), {}
+give me the pizza! please? 
+upd: (' pretty please?\n', 4), {}
+give me the pizza! pretty please?
+give me the pizza! pretty please?
+give me the pizza! pretty please?
+give me the pizza! pretty please?
+give me the pizza! pretty please?
+
+upd: (), {'n': 3}
+give me the pizza!give me the pizza!give me the pizza!give me the pizza!
